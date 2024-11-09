@@ -2,7 +2,7 @@
 
 describe('First test suite', () => {
     beforeEach(() => {
-        cy.navigateToFormLayouts()
+        cy.navigateTo()
         cy.contains('Forms').click();
         cy.contains('Form Layouts').click();
     })

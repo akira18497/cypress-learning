@@ -3,7 +3,7 @@
 describe('2nd test suite', () => {
 
     beforeEach(() => {
-        cy.navigateToFormLayouts()
+        cy.navigateTo()
     })
 
     it.only('check box', () => {

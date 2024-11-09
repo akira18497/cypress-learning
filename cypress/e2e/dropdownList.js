@@ -1,7 +1,7 @@
 describe('dropdown list', () => {
 
     beforeEach(() => {
-        cy.navigateToFormLayouts()
+        cy.navigateTo()
     })
     it('Lists and dropdowns', () => {
         //1

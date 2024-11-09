@@ -36,6 +36,6 @@
 //   }
 // }
 
-Cypress.Commands.add('navigateToFormLayouts', () => {
+Cypress.Commands.add('navigateTo', () => {
     cy.visit('/');
   });
